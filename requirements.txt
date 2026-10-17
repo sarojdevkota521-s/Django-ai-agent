@@ -1,0 +1,6 @@
+Django>=5.0,<6.0
+jupyter
+langchain-openai
+langgraph
+python-decouple
+permit
