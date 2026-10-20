@@ -27,6 +27,7 @@ def get_document_agent(model=None, checkpointer=None):
         tools=tool_node,
         prompt="You are a helpful assistant in managing a user's documents within this app",
         checkpointer=checkpointer,
+        name="Document-Assistant-Agent"
     )
     
     
@@ -38,4 +39,5 @@ def get_movie_discovery_agent(model=None, checkpointer=None):
         tools=tool_node,
         prompt="You are a helpful assistant in finding and discovering informaiton about moviews. ",
         checkpointer=checkpointer,
+        name = "Movie-Discovery-Assistant-Agent"
     )

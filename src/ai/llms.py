@@ -12,11 +12,11 @@ def get_openai_api_key():
 #     api_key=settings.OPENAI_API_KEY
 # )
 
-def get_openai_model(model="gemini-3.8-flash"):
+def get_openai_model(model="gemini-3.6-flash"):
     return ChatGoogleGenerativeAI(
         model=model,
         temperature=0,
         max_retries=1,  # Do not loop retrying for minutes
-        timeout=60,
+        timeout=600,
         google_api_key=settings.GOOGLE_API_KEY,
     )
