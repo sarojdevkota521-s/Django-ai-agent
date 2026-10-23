@@ -148,3 +148,8 @@ MAILERS = {
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", default=None)
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", default=None)
 TMDB_API_KEY = os.environ.get("TMDB_API_KEY", default=None)
+PERMIT_API_KEY = os.environ.get("PERMIT_API_KEY", default=None)
+PERMIT_PDP_URL = os.environ.get("PERMIT_PDP_URL", default="https://cloudpdp.api.permit.io")
+TMDB_API_KEY = os.environ.get("TMDB_API_KEY", default=None)
+PERMIT_API_KEY =os.environ.get("PERMIT_API_KEY", default=None)
+PERMIT_PDP_URL =os.environ.get("PERMIT_PDP_URL", default=None)
